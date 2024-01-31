@@ -1,0 +1,15 @@
+{
+  "apiUrl": "/scola",
+  "ssoConfig": {
+    "redirectUri": "http://localhost:4200/",
+    "autoRefreshToken": true,
+    "idpServers": [
+      {
+        "registrationId": "keycloak",
+        "clientId": "APP_LOCAL_CLIENT",
+        "authUrl": "http://localhost:8083/oauth/realms/APP_LOCAL/protocol/openid-connect/auth",
+        "label": "Login"
+      }
+    ]
+  }
+}
