@@ -4,7 +4,6 @@
 ## Example
 ```
 oauth2Config: Oauth2Config = new Oauth2Config();
-code = null;
 
 // Init the code flow by setting the auth url, redirect-uri and the client-id
   public initOauth2(): void {
